@@ -24,8 +24,19 @@ h1 {
 
 .ramo {
   margin-left: 20px;
-}
-  background-color: #d1e7dd;
-  border-left: 5px solid #28a745;
+  padding: 6px 10px;
+  border-radius: 6px;
+  margin-bottom: 5px;
+  background-color: #e2e3e5;
+  border-left: 5px solid #adb5bd;
 }
 
+.ramo.desbloqueado {
+  background-color: #d1e7dd;
+  border-left-color: #28a745;
+}
+
+.ramo.bloqueado {
+  background-color: #f8d7da;
+  border-left-color: #dc3545;
+}
