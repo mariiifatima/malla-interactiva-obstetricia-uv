@@ -1,51 +1,30 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f8f9fa;
-  margin: 0;
-  padding: 1rem;
+  margin: 20px;
+  background: #f9f9f9;
 }
 
 h1 {
   text-align: center;
-  color: #4b0082;
-}
-
-.malla-container {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 1rem;
-  padding: 1rem;
+  color: #63003c;
 }
 
 .semestre {
-  border: 2px solid #ccc;
+  margin-bottom: 20px;
+  padding: 15px;
   border-radius: 10px;
-  padding: 1rem;
-  background-color: #ffffff;
+  background: #fff;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
 }
 
 .semestre h2 {
-  font-size: 1.1rem;
-  color: #333;
+  color: #9e005d;
+  margin-bottom: 10px;
 }
 
 .ramo {
-  margin: 0.5rem 0;
-  padding: 0.5rem;
-  border-left: 5px solid #6a1b9a;
-  background-color: #e9ecef;
-  cursor: pointer;
-  transition: 0.3s;
+  margin-left: 20px;
 }
-
-.ramo.bloqueado {
-  background-color: #f8d7da;
-  border-left: 5px solid #dc3545;
-  color: #6c757d;
-  cursor: not-allowed;
-}
-
-.ramo:hover:not(.bloqueado) {
   background-color: #d1e7dd;
   border-left: 5px solid #28a745;
 }
