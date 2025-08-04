@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   padding: 20px;
-  background: #f2f2f2;
+  background: #e6e6ed;
 }
 
 h1 {
@@ -24,7 +24,7 @@ h1 {
 
 .semestre h2 {
   text-align: center;
-  background: #0077cc;
+  background: #cbdaff;
   color: white;
   padding: 10px;
   border-radius: 8px;
