@@ -1,1 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Malla Obstetricia</title>
+    <link rel="stylesheet" href="../colores/estilos.css" />
+  </head>
+  <body>
+    <h1>Malla Obstetricia</h1>
+
+    <div class="semestre">
+      <h2>Semestre 1</h2>
+      <div class="ramos">
+        <div class="ramo" data-id="anatomia">Anatomía</div>
+        <div class="ramo" data-id="biologia">Biología Celular</div>
+        <div class="ramo" data-id="quimica">Química</div>
+      </div>
+    </div>
+
+    <div class="semestre">
+      <h2>Semestre 2</h2>
+      <div class="ramos">
+        <div class="ramo bloqueado" data-id="fisiologia" data-prereq="biologia">Fisiología</div>
+        <div class="ramo bloqueado" data-id="bioquimica" data-prereq="quimica">Bioquímica</div>
+        <div class="ramo bloqueado" data-id="histologia" data-prereq="biologia">Histología</div>
+      </div>
+    </div>
+
+    <script src="../logica/malla.js"></script>
+  </body>
+</html>
 
